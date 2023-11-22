@@ -38,12 +38,18 @@ tar -xf ant-ivy
 ```
 This should create a directory named `apache-ivy-2.5.2`
 
-Finally copy the `apache-ivy-2.5.2/ivy-2.5.2.jar` file into `/usr/bin/ant/`
+Copy the `apache-ivy-2.5.2/ivy-2.5.2.jar` file into `/usr/share/ant/lib/`
 
 
 # Building 
 
-
-Then, run `ant ivy-setupjars jar` and set your `CLASSPATH` by `source setcp.sh`
+Build the `jar` 
+```
+ant ivy-setupjars jar
+```
+Set the `CLASSPATH` by 
+```
+source setcp.sh
+```
 
 seba (<mailto:sebastiano.vigna@unimi.it>)
