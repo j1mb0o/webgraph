@@ -36,9 +36,9 @@ In order to install ivy, we must download first the jar file and then copy it to
 wget -O ant-ivy https://dlcdn.apache.org//ant/ivy/2.5.2/apache-ivy-2.5.2-bin.tar.gz
 tar -xf ant-ivy
 ```
-This should create a directory named apache-ivy-2.5.2
+This should create a directory named `apache-ivy-2.5.2`
 
-Finally copy the `.jar ` file into `/usr/bin/ant`
+Finally copy the `apache-ivy-2.5.2/ivy-2.5.2.jar` file into `/usr/bin/ant/`
 
 
 # Building 
