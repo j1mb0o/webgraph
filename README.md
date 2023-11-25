@@ -52,4 +52,9 @@ Set the `CLASSPATH` by
 source setcp.sh
 ```
 
+Finally to test that everything works you can try the following command:
+```
+java it.unimi.dsi.webgraph.BVGraph -g ArcListASCIIGraph example.arcs bvexample
+```
+
 seba (<mailto:sebastiano.vigna@unimi.it>)
