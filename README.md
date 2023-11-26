@@ -29,6 +29,10 @@ java --version
 ```
 ant -version
 ```
+If ant was not installed re-try by running:
+```
+sudo apt install ant
+```
 
 In order to install ivy, we must download first the jar file and then copy it to the path where ant is installed
 
@@ -43,7 +47,9 @@ Copy the `apache-ivy-2.5.2/ivy-2.5.2.jar` file into `/usr/share/ant/lib/`
 
 # Building 
 
-Build the `jar` 
+
+
+Build the `jar` by first `cd` into the `webgraph` repo and run:  
 ```
 ant ivy-setupjars jar
 ```
